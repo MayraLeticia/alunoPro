@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --white: #ffffff;
+    --black: #000000;
+    --purple: #6f2dbd;
+    --purpleLight: #858ae3;
+    --purpleDark: #4e148c;
+}
+
+body, input, button, ::placeholder{
+    font-family: 'Poppins', sans-serif;
+}
