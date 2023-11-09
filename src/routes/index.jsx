@@ -1,6 +1,6 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-import {Login, Home, Register} from '../screens'
+import {Login, Home, Register, Perfil} from '../screens'
 
 const RoutesComponent = () => (
     <BrowserRouter>
@@ -8,6 +8,7 @@ const RoutesComponent = () => (
             <Route index element={<Login />} path="/" />
             <Route element={<Home />} path="/home" />
             <Route element={<Register />} path="/register" />
+            <Route element={<Perfil />} path="/perfil" />
         </Routes>
     </BrowserRouter>
 )
